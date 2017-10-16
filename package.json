@@ -1,6 +1,9 @@
 {
   "name": "eslint-import-resolver-module-alias",
   "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
   "description": "module-alias (https://github.com/ilearnio/module-alias) module resolution plugin for eslint-plugin-import",
   "main": "index.js",
   "author": "Adrian Zalewski <zalewski.adrian.adam@gmail.com> (https://github.com/bardzusny)",
