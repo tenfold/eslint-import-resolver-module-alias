@@ -4,5 +4,9 @@
   "description": "module-alias (https://github.com/ilearnio/module-alias) module resolution plugin for eslint-plugin-import",
   "main": "index.js",
   "author": "Adrian Zalewski <zalewski.adrian.adam@gmail.com> (https://github.com/bardzusny)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.1",
+    "find-root": "^1.1.0"
+  }
 }
