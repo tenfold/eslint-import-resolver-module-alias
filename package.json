@@ -8,5 +8,8 @@
   "dependencies": {
     "eslint-import-resolver-node": "^0.3.1",
     "find-root": "^1.1.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }
