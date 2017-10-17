@@ -5,7 +5,7 @@
 ### Usage
 
 ```bash
-npm install --save-dev eslint-import-resolver-module-alias@bardzusny/eslint-import-resolver-module-alias
+npm install --save-dev eslint-import-resolver-module-alias@tenfold/eslint-import-resolver-module-alias
 ```
 
 Configure ESLint:
