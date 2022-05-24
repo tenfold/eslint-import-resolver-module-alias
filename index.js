@@ -1,10 +1,13 @@
+const findRoot = require('find-root');
 const nodeResolver = require('eslint-import-resolver-node');
 const path = require('path');
 
 exports.interfaceVersion = 2;
 
-exports.resolve = function (source, file, config) {
+exports.resolve = (source, file, config) => {
+  const projectRoot = findRoot(file);
   const { moduleAliases = {} } = config;
+
   const moduleName = source.split('/')[0];
   const filePathInModule = source.split('/').slice(1).join('/');
 
