@@ -13,7 +13,8 @@
   "author": "Adrian Zalewski <zalewski.adrian.adam@gmail.com> (https://github.com/bardzusny)",
   "license": "MIT",
   "dependencies": {
-    "eslint-import-resolver-node": "^0.3.1"
+    "eslint-import-resolver-node": "^0.3.1",
+    "find-root": "^1.1.0"
   },
   "devDependencies": {
     "jest": "^21.2.1"
